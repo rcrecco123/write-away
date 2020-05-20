@@ -45,7 +45,7 @@ function App() {
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/#write-away">
+            <a class="navbar-brand" href="/write-away">
               <img src={mainLogo} width="150" height="72" />
             </a>
           </div>
