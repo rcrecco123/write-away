@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60c4c164163dc16d3af705fc5b860fd5",
+    "revision": "8c78b7e9eb15ba057273c9cfe24b25f7",
     "url": "/write-away/index.html"
   },
   {
-    "revision": "48443d2816a54c777907",
+    "revision": "4247c99acfc3159b82d8",
     "url": "/write-away/static/css/main.443b437c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/write-away/static/js/2.db676578.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48443d2816a54c777907",
-    "url": "/write-away/static/js/main.4fc30b18.chunk.js"
+    "revision": "4247c99acfc3159b82d8",
+    "url": "/write-away/static/js/main.fcc39b53.chunk.js"
   },
   {
     "revision": "4c1721803df691afad9f",

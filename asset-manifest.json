@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/write-away/static/css/main.443b437c.chunk.css",
-    "main.js": "/write-away/static/js/main.4fc30b18.chunk.js",
-    "main.js.map": "/write-away/static/js/main.4fc30b18.chunk.js.map",
+    "main.js": "/write-away/static/js/main.fcc39b53.chunk.js",
+    "main.js.map": "/write-away/static/js/main.fcc39b53.chunk.js.map",
     "runtime-main.js": "/write-away/static/js/runtime-main.6f233dab.js",
     "runtime-main.js.map": "/write-away/static/js/runtime-main.6f233dab.js.map",
     "static/js/2.db676578.chunk.js": "/write-away/static/js/2.db676578.chunk.js",
     "static/js/2.db676578.chunk.js.map": "/write-away/static/js/2.db676578.chunk.js.map",
     "index.html": "/write-away/index.html",
-    "precache-manifest.6b6ba66ce3af7c4c540fde408ef7801d.js": "/write-away/precache-manifest.6b6ba66ce3af7c4c540fde408ef7801d.js",
+    "precache-manifest.05c66d9f651681b917d17f67c8994b66.js": "/write-away/precache-manifest.05c66d9f651681b917d17f67c8994b66.js",
     "service-worker.js": "/write-away/service-worker.js",
     "static/css/main.443b437c.chunk.css.map": "/write-away/static/css/main.443b437c.chunk.css.map",
     "static/js/2.db676578.chunk.js.LICENSE.txt": "/write-away/static/js/2.db676578.chunk.js.LICENSE.txt",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.6f233dab.js",
     "static/js/2.db676578.chunk.js",
     "static/css/main.443b437c.chunk.css",
-    "static/js/main.4fc30b18.chunk.js"
+    "static/js/main.fcc39b53.chunk.js"
   ]
 }
