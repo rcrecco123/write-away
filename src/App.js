@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
+
 // import mainLogo from "./MASTER.PNG";
 import mainLogo from "./MASTER.png";
 import "./App.css";
@@ -20,7 +21,13 @@ import Programs from "./components/Programs";
 import OurMission from "./components/OurMission";
 import Donate from "./components/Donate";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 
 function App() {
   return (
@@ -38,7 +45,7 @@ function App() {
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/write-away">
+            <a class="navbar-brand" href="/#write-away">
               <img src={mainLogo} width="150" height="72" />
             </a>
           </div>
@@ -64,24 +71,25 @@ function App() {
           </div>
         </div>
       </nav>
-
+      {/* <Redirect from="/" to="/write-away" /> */}
+      <Redirect from="/" exact to="/write-away" />
       <Switch>
         <Route exact path="/write-away">
           <Home />
         </Route>
-        <Route path="/our-mission" exact component={OurMission}>
+        <Route exact path="/our-mission" exact component={OurMission}>
           <OurMission />
         </Route>
-        <Route path="/about-us">
+        <Route exact path="/about-us">
           <AboutUs />
         </Route>
-        <Route path="/programs">
+        <Route exact path="/programs">
           <Programs />
         </Route>
-        <Route path="/get-involved">
+        <Route exact path="/get-involved">
           <GetInvolved />
         </Route>
-        <Route path="/donate">
+        <Route exact path="/donate">
           <Donate />
         </Route>
       </Switch>
