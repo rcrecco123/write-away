@@ -1,24 +1,93 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+// import mainLogo from "./MASTER.PNG";
+import mainLogo from "./MASTER.png";
+import "./App.css";
+import {
+  Navbar,
+  Nav,
+  NavItem,
+  NavDropdown,
+  MenuItem,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
+import Home from "./components/Home";
+import GetInvolved from "./components/GetInvolved";
+import AboutUs from "./components/AboutUs";
+import Programs from "./components/Programs";
+import OurMission from "./components/OurMission";
+import Donate from "./components/Donate";
+
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+              <img src={mainLogo} width="150" height="72" />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li>
+                <Link to="/our-mission">Our Mission</Link>
+              </li>
+              <li>
+                <Link to="/about-us">About Us</Link>
+              </li>
+              <li>
+                <Link to="/programs">Programs</Link>
+              </li>
+
+              <li>
+                <Link to="/get-involved">Get Involved</Link>
+              </li>
+              <li>
+                <Link to="/donate">Donate</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/our-mission" exact component={OurMission}>
+          <OurMission />
+        </Route>
+        <Route path="/about-us">
+          <AboutUs />
+        </Route>
+        <Route path="/programs">
+          <Programs />
+        </Route>
+        <Route path="/get-involved">
+          <GetInvolved />
+        </Route>
+        <Route path="/donate">
+          <Donate />
+        </Route>
+      </Switch>
+      <footer class="container-fluid-footer text-center footer">
+        <p>WriteAway© 2020</p>
+      </footer>
     </div>
   );
 }

@@ -36,3 +36,315 @@
     transform: rotate(360deg);
   }
 }
+
+.Nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 1rem;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  background-color: #f8f9fa !important;
+}
+
+.mr-auto {
+  float: left;
+}
+
+.basic-navbar-nav {
+  float: left;
+}
+
+.navbar-brand {
+  width: 170px;
+  height: 50px;
+
+  margin-left: -117px;
+}
+
+.splash-image {
+  width: 300px;
+  height: 300px;
+}
+
+.splash-top-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.screen-div {
+  padding: 25px;
+}
+
+.top-div-home {
+  margin-top: -50px;
+  width: 58%;
+}
+
+.splash-list {
+  margin: auto;
+  width: 83%;
+}
+
+.container-fluid {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.container-fluid-footer {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.programs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.get-involved {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 150px; */
+  margin-bottom: 150px;
+}
+
+.about-us:last-child {
+  margin-bottom: 350px;
+}
+
+.mission-div {
+  width: 75%;
+  margin-bottom: 50px;
+}
+
+.about-div {
+  width: 75%;
+  margin-top: 45px;
+}
+.about-div:first-child {
+  width: 75%;
+  margin-top: 105px;
+}
+
+.about-div > h2 {
+  margin-bottom: -5;
+}
+
+.about-div-two {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-top: 105px;
+  justify-content: space-evenly;
+}
+.ms-one {
+  font-size: 40px;
+}
+
+.ms-two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -85px;
+}
+.ms-four {
+  margin-left: 90px;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footer {
+  position: fixed;
+}
+
+.coffe-pic {
+  height: 330%;
+  width: 33%;
+  object-fit: cover;
+}
+.coffe-pic-two {
+  height: 330%;
+  width: 33%;
+  object-fit: cover;
+}
+
+.navbar {
+  height: 98px !important;
+  font-size: 20px;
+}
+
+.vision-div {
+  text-align: center;
+}
+
+.h-vision {
+  margin-top: 35px;
+  font-size: 30px;
+}
+.nav {
+  margin-top: 10px;
+}
+
+.program-sub-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.sub-p {
+  padding: 8px;
+  margin: 10px;
+  text-align: left;
+}
+
+.navbar-inverse {
+  background-color: #f6f6f6;
+}
+.navbar-collapse {
+}
+
+.sub-center {
+  align-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+.about-margin {
+  margin: 85px;
+}
+
+.banner-main {
+  margin-top: 40px;
+  height: 325px;
+}
+
+/* EMAIL FORM */
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  width: 65%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.social-div {
+  margin-top: 35px;
+  align-content: center;
+}
+.social-header {
+  margin-bottom: 45px;
+}
+
+.devicons {
+  text-align: center;
+  padding: 15px;
+}
+
+.fab {
+  margin-left: 15px;
+  font-size: 40px;
+  color: #3c55a3;
+}
+
+.paypal {
+  margin-top: 55px;
+  font-size: 155px;
+}
+
+.formy {
+  text-align: center;
+}
+
+.sub-button {
+  margin-top: 55px;
+}
+
+.join-team {
+  text-align: center;
+}
+
+.sub-sub {
+  text-align: center;
+}
+
+.MuiButton-containedPrimary {
+  height: 50px;
+}
+
+.subsub-two {
+  align-self: t;
+}
+
+.apply-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.last-sub {
+  margin-top: 55px;
+}
+.writeaway {
+  margin-top: 35px;
+}
+
+.misson-secret {
+  width: 45%;
+}
+.ms-seven {
+  margin-bottom: -70px;
+}
+
+.values {
+}
+
+.the-facts-header {
+  margin-left: 8%;
+}
+
+.the-facts-main {
+  margin-top: 25px;
+}
+
+.navbar-nav {
+  padding-top: 16px;
+}
+
+.values-list {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.values-left {
+  margin-left: 170px;
+}
