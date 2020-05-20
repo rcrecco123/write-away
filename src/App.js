@@ -66,7 +66,7 @@ function App() {
       </nav>
 
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/write-away">
           <Home />
         </Route>
         <Route path="/our-mission" exact component={OurMission}>
