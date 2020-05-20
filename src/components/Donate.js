@@ -8,8 +8,7 @@ export default function Home() {
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
 
-      <h2>Coming Soon!</h2>
-      <i class="fab fa-cc-paypal paypal"></i>
+      <h2 class="coming-soon">Coming Soon!</h2>
     </div>
   );
 }

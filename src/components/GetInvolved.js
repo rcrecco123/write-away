@@ -27,16 +27,19 @@ export default function GetInvolved() {
         <div class="social-div">
           <h2>Follow us on social media: @writeaway_org</h2>
           <div class="devicons">
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram-square"></i>
-            <i class="fab fa-facebook"></i>
+            <a target="_blank" href="https://twitter.com/writeaway_org">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/writeaway_org/">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/Write-Away-109023140808446"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
           </div>
-        </div>
-
-        <div class="join-team">
-          <h2>Join the team:</h2>
-          <div>IdeaList</div>
-          <div>Indeed</div>
         </div>
       </div>
     </div>

@@ -212,7 +212,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .sub-p {
@@ -347,4 +347,12 @@ input[type="submit"] {
 
 .values-left {
   margin-left: 170px;
+}
+
+.inverse-pic {
+  transform: scaleX(-1);
+}
+
+.coming-soon {
+  margin-top: 150px;
 }

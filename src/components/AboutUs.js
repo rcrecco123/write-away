@@ -70,7 +70,6 @@ export default class AboutUs extends React.Component {
 
           <div class="about-div">
             <h2>Web Developer - Ronald Crecco</h2>
-            <p>Ronnie is a master of music and programming.</p>
           </div>
         </div>
       </div>
