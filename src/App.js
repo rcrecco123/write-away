@@ -45,7 +45,7 @@ function App() {
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/write-away">
+            <a class="navbar-brand" href="/">
               <img src={mainLogo} width="150" height="72" />
             </a>
           </div>
@@ -72,9 +72,9 @@ function App() {
         </div>
       </nav>
       {/* <Redirect from="/" to="/write-away" /> */}
-      <Redirect from="/" exact to="/write-away" />
+      {/* <Redirect from="/" exact to="/write-away" /> */}
       <Switch>
-        <Route exact path="/write-away">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route exact path="/our-mission" exact component={OurMission}>
