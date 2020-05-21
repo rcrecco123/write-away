@@ -141,7 +141,7 @@
 
 .about-div {
   width: 75%;
-  margin-top: 45px;
+  margin-top: 145px;
 }
 .about-div:first-child {
   width: 75%;
@@ -306,7 +306,7 @@ input[type="submit"] {
 .apply-box {
   display: flex;
   flex-direction: row;
-  margin-top: 35px;
+  margin-top: 155px;
   margin-left: 40px;
   margin-right: 40px;
 }
@@ -355,4 +355,12 @@ input[type="submit"] {
 
 .coming-soon {
   margin-top: 150px;
+}
+
+.jobs-div {
+  text-align: center;
+}
+
+.low-margin {
+  margin-bottom: 0px;
 }
