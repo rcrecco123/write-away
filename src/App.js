@@ -72,7 +72,7 @@ function App() {
         </div>
       </nav>
       {/* <Redirect from="/" to="/write-away" /> */}
-      {/* <Redirect from="/" exact to="/write-away" /> */}
+      <Redirect from="/write-away" exact to="/" />
       <Switch>
         <Route exact path="/">
           <Home />
