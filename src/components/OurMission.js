@@ -30,9 +30,10 @@ export default function OurMission() {
       </div>
 
       <div class="mission-div misson-secret">
+        <h2>Write Away works towards this mission from three perspectives:</h2>
         <ul>
           <li>
-            Write Away: Let’s make writing & digital literacy fun, exciting, and
+            Write Away! Let’s make writing & digital literacy fun, exciting, and
             motivating!
           </li>
           <li>
@@ -50,11 +51,45 @@ export default function OurMission() {
       <div class="mission-div ms-four values-left">
         <h2>Core Values</h2>
         <ul class="values-list">
-          <li class="values">Equity</li>
-          <li class="values">Rigor</li>
-          <li class="values">Joy</li>
-          <li class="values">Creativity</li>
-          <li class="values">Inclusion</li>
+          <li class="values">
+            Equity:{" "}
+            <p class="smaller-one">
+              We work to ensure that individuals of all backgrounds have an
+              equitable opportunity to express themselves in digital
+              environments.
+            </p>
+          </li>
+          <li class="values">
+            Inclusion:{" "}
+            <p class="smaller-one">
+              We strive to create an educational context where students feel
+              safe, seen, and heard, and where they have access to technology
+              and the opportunity to participate with others in digital
+              environments.
+            </p>
+          </li>
+          <li class="values">
+            Growth:{" "}
+            <p class="smaller-one">
+              We believe that everyone is a life-long learner with the potential
+              to grow personally and develop professionally as both a writer and
+              a digital citizen.
+            </p>
+          </li>
+          <li class="values">
+            Creativity:{" "}
+            <p class="smaller-one">
+              We know writing and engaging with a variety of digital tools
+              fosters creativity, imagination, and artistic expression.
+            </p>
+          </li>
+          <li class="values">
+            Justice:{" "}
+            <p class="smaller-one">
+              We empower each other to use writing as a tool to create a better
+              world.
+            </p>
+          </li>
         </ul>
 
         {/* <img class="coffe-pic" src={require("../phone1.jpg")} /> */}

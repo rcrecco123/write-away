@@ -5,55 +5,57 @@ export default function Programs() {
   return (
     <div class="programs">
       <div class="about-div">
-        <h2>Webinars:</h2>
-        <p>
-          Are you a teacher, parent, or school leader looking to create
-          opportunities for digitally-based writing for kids? Write Away is
-          hosting a series of Webinars to equip you with the tools and
-          perspective that will help you create fun and engaging digital writing
-          experiences that connect to kids’ interests and the social media
-          platforms they already use. Join us for our next&nbsp;
-          <a
-            target="_blank"
-            href="https://www.facebook.com/Write-Away-109023140808446"
-          >
-            FREE Webinar&nbsp;
-          </a>
-          to learn more!
-        </p>
-      </div>
-      <div class="about-div">
         <h2>Digital Literacy Mentorship:</h2>
         <p>
-          Write Away is excited to launch our Digital Literacy Mentorship
-          program in Summer of 2020. The Digital Literacy Mentorship is a 6 week
-          program designed to match individual students with a mentor that will
-          coach and guide them through a series of writing tasks aimed to
-          promote digital literacy, provide opportunities for self-expression,
-          and foster a love for writing. Over the course of the six week
-          program, kids will meet virtually with their mentor three times per
-          week for hour sessions. During these sessions, mentors will coach
-          mentees through the creation of three writing tasks: a social media
-          narrative, a personal narrative, and an informational essay.
+          Write Away is excited to invite you to join our Digital Literacy
+          Mentorship program. Both mentors and mentees can find application
+          detail at the links below. The Digital Literacy Mentorship is a
+          six-week (3 hours per week) or nine-week (2 hours per week) program
+          designed to match individual students with a mentor who will coach and
+          guide them through a series of writing tasks aimed to promote digital
+          literacy, provide opportunities for self-expression, and foster a love
+          of writing.
         </p>
-
+        <br></br>
+        <div className="center-program">
+          <h2>This program runs four times per year:</h2>
+          <ul className="nobullet">
+            <li>
+              Fall session: Begins October 1st. Submit application by August
+              31st.{" "}
+            </li>
+            <li>
+              Winter session: Begins February 1st. Submit application by
+              December 31st.{" "}
+            </li>
+            <li>
+              Spring session: Begins April 1st. Submit application by February
+              28th.
+            </li>
+            <li>
+              Summer session: Begins July 1st. Submit application by May 31st.
+            </li>
+          </ul>
+          <p>
+            Over the course of the program, mentees will meet virtually with
+            their mentor two to three times per week for hour-long sessions.
+            During these sessions, mentors will coach mentees through the
+            creation of three writing tasks: a social media narrative, a
+            personal narrative, and an informational essay. Here is how you can
+            get involved:
+          </p>
+        </div>
         <div class="program-sub-div">
           <div class="apply-box">
             <div class="sub-sub subsub-two">
               <h3 class="sub-p sub-center">Apply to be a mentee: </h3>
               <p class="sub-p">
                 Parents can apply for their child to participate in the Digital
-                Literacy Mentorship program by filling out this application. All
-                participants will engage in three one hour virtual sessions with
-                a mentor each week over the course of the six week program
-                beginning on June 29th, 2020. You can email Write Away at &nbsp;
-                <a href="mailto:info.writeaway@gmail.com">
-                  info.writeaway@gmail.com
-                </a>
+                Literacy Mentorship program by filling out this application. 
               </p>
               <a
                 target="_blank"
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfcpWKXW1ceHoYGn3v2n8p1LSg-PtgnKmxT05lF0x6eeePxmA/viewform?usp=sf_link"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSer0H-CdbyYAzq1E4zgiN0-QfeoKOAvEaODapiNLFQUNQuHBQ/viewform"
               >
                 <Button variant="contained" color="primary">
                   Become a mentee
@@ -76,14 +78,19 @@ export default function Programs() {
               <p class="sub-p">
                 If you are interested in serving as a mentor through Write
                 Away’s Digital Literacy Mentorship program, you can fill out an
-                application <a href="/apply">here</a>. This mentorship
-                opportunity will run from June 22nd, 2020 through August 14th,
-                2020. This is an opportunity to work with students in grades
-                6th-12th as their Digital Literacy coach. Please submit your
-                application to be a mentor by June 15th, 2020 for
-                consideration. 
+                application{" "}
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf4-3cwMXiFFrZm3-A_EFzbyYGNvFqFOFG5gTON3s1kWy_kqg/viewform"
+                >
+                  here
+                </a>
+                
               </p>
-              <a href="apply-mentor">
+              <a
+                target="_blank"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf4-3cwMXiFFrZm3-A_EFzbyYGNvFqFOFG5gTON3s1kWy_kqg/viewform"
+              >
                 <Button variant="contained" color="primary">
                   Become a mentor
                 </Button>
@@ -92,14 +99,40 @@ export default function Programs() {
           </div>
         </div>
       </div>
-
+      <div class="about-div">
+        <h2>Empower Hour:</h2>
+        <p>
+          On the first Thursday of each month, Write Away will host a virtual
+          Empower Hour! During each Empower Hour, a guest speaker will provide
+          insight and inspiration for writing. They will lead participants
+          through the life experiences, realizations, and frameworks that led to
+          their successes, failures, and overall growth. Join us to learn from
+          the experts!&nbsp;
+        </p>
+        <p>
+          The first Empower Hour will be hosted by Write Away’s president and
+          founder Deanna Santoro, Ed.D. During this session, Dr. Santoro will
+          describe her vocational journey and tell the story of Write Away. As a
+          part of this time together, participants will write their personal
+          mission statements.
+        </p>
+      </div>
+      <div className="about-div">
+        <h2>
+          Follow us on social media for the latest updates on the date and time
+          for each event.
+        </h2>
+      </div>
       <div class="about-div">
         <h2>Consulting Services: </h2>
         <p>
           If you are a school, school district/network, or organization looking
           to promote positive writing outcomes for kids through the use of
-          digitally-based writing tools, email us at info.writeaway@gmail.com to
-          learn more about our consultant services.
+          digitally-based writing tools, email us at{" "}
+          <a href="mailto:info.writeaway@gmail.com">
+            info.writeaway@gmail.com{" "}
+          </a>
+          to learn more about how we can support you!
         </p>
       </div>
     </div>
