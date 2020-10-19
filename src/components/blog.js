@@ -12,6 +12,7 @@ export default function Blog() {
     <br></br>
     <br></br>
     <br></br>
+    <br></br>
         <div class="our-mission">COMING SOON!!!!!</div>
         </div>
     )
