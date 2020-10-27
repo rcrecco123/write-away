@@ -4,7 +4,7 @@ export default function Blog() {
     return (
 <div>
     <br></br>
-    <br></br>
+    
     <br></br>
     <br></br>
     <br></br>
