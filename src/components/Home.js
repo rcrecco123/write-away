@@ -9,7 +9,7 @@ export default function Home() {
       />
       <div clss="mobile-resize-img">
         <img
-          class="banner-main mobile-main-manner"
+          class="banner-main"
           src={require("../output-onlinepngtools.png")}
         />
       </div>
