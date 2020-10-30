@@ -7,9 +7,9 @@ export default function Home() {
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       />
-      <div>
+      <div clss="mobile-resize-img">
         <img
-          class="banner-main"
+          class="banner-main mobile-main-manner"
           src={require("../output-onlinepngtools.png")}
         />
       </div>
