@@ -4,12 +4,13 @@ export default function OurMission() {
   return (
     <div class="our-mission">
       <div class="mission-div vision-div">
-        <h2>Vision</h2>
         <h4 class="h-vision">
-        Our Story <br></br>
+          <br></br>
           <div class="writeaway">
             <img class="coffe-pic" src={require("../MASTER.png")} />
           </div>
+          <br></br>
+          Our Story
         </h4>
       </div>
 

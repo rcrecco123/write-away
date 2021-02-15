@@ -60,6 +60,11 @@ function Navbar() {
         </a>
         <li>
           <a>
+            <Link to="/">Home</Link>
+          </a>
+        </li>
+        <li>
+          <a>
             <Link to="/blog">Blog</Link>
           </a>
         </li>
