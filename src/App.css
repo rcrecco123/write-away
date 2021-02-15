@@ -401,7 +401,9 @@ input[type="submit"] {
 
 .values {
 }
-
+.header-title {
+  display: ;
+}
 .the-facts-header {
   margin-left: 8%;
 }
@@ -410,6 +412,14 @@ input[type="submit"] {
   margin-top: 25px;
 }
 
+.the-facts-p {
+  margin-left: 8%;
+  padding: 10px 0 10px 0;
+}
+.about-div-two-quotes {
+  margin-left: 8%;
+  display: block;
+}
 .navbar-nav {
   padding-top: 16px;
 }
@@ -458,8 +468,11 @@ input[type="submit"] {
 }
 
 .donate-header {
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: -50px;
+}
+p.donate-text {
+  max-width: 768px;
 }
 
 @media only screen and (max-width: 600px) {

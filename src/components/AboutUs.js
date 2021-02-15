@@ -10,6 +10,15 @@ export default class AboutUs extends React.Component {
     return (
       <div>
         <div class="about-us">
+
+          <div class="about-div-two">
+          The Write Away staff is an energetic group of people from diverse fields, including teaching, nonprofit administration, creative writing, education data, and more.
+      <br></br>
+      <br></br>
+What brings us together? A passion for closing the digital divide, fostering communication skills, and working toward a world in which everyone has the power to express themselves.
+
+          </div>
+
           <div class="about-div">
             <h2>Deanna Santoro, Ed.D. - Founder & President</h2>
             <p>

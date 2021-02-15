@@ -3,6 +3,17 @@ import React from "react";
 export default function Home() {
   return (
     <div class="about-us splash-list">
+      <br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+      <p className="donate-text">Write Away works because we’re passionate about our cause and savvy about our costs. That being said, we’re always looking for ways to better serve our learners. And that’s where your donations come in. </p>
+<br></br>
+<br></br>
+<p className="donate-text">We welcome your tax-deductible donations in any amount, via PayPal or credit card. They help keep our organization running. And they let us know there are folks out there who care just as much about this important work as we do!</p>
+
       <h2 className="donate-header">Click below to donate with PayPal!</h2>
       <link
         rel="stylesheet"

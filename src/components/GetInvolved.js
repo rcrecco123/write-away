@@ -4,25 +4,18 @@ export default function GetInvolved() {
   return (
     <div class="get-involved">
       <div class="about-div about-us low-margin">
+      <div></div>
+        <p className="social-header">Check out our programming page for opportunities as a student mentor, or reach out to find out more about how you can help us achieve our mission as an intern or volunteer.</p>
+        <a
+                target="_blank"
+                href="mailto:test@example.com?subject=Volunteer"
+              >
+                <Button variant="contained" color="primary">
+                VOLUNTEER
+                </Button>
+              </a>
+      
         <h2 class="social-header">Subscribe to our mailing list:</h2>
-
-        {/* <div>
-          <form class="formy">
-            <div>
-              <input type="text" placeholder="Name" name="name" required />
-              <input
-                type="email"
-                placeholder="Email address"
-                name="mail"
-                required
-              />
-
-              <div class="sub-button">
-                <input type="submit" value="subscribe" />
-              </div>
-            </div>
-          </form>
-        </div> */}
         <a
                 target="_blank"
                 href="https://docs.google.com/forms/d/e/1FAIpQLSe0d49kyxphuhD_lf5-nDiAzb1A3Y2ZeMR5JKaKcZlBdCa8Ig/viewform?gxids=7628"

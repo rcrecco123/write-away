@@ -7,11 +7,11 @@ function Navbar() {
 
   if (isMobile) {
     return (
-   <div class="mobile-nav-master">
-      <a class="navbar-brand mobile-img-brand" href="/">
+   <div className="mobile-nav-master">
+      <a className="navbar-brand mobile-img-brand" href="/">
           <img src={mainLogo} width="150" height="72" />
         </a>
-  <ul class="mobile-nav">
+  <ul className="mobile-nav">
   <li>
           <a>
             <Link to="/blog">Blog</Link>
@@ -35,12 +35,12 @@ function Navbar() {
 
         <li>
           <a>
-            <Link to="/about-us">About Us</Link>
+            <Link to="/who-we-are">Who We Are</Link>
           </a>
         </li>
         <li>
           <a>
-            <Link to="/our-mission">Our Mission</Link>
+            <Link to="/about">About</Link>
           </a>
         </li>
   </ul>
@@ -54,8 +54,8 @@ function Navbar() {
 
   return (
     <div>
-      <ul class="navbar-list">
-        <a class="navbar-brand" href="/">
+      <ul className="navbar-list">
+        <a className="navbar-brand" href="/">
           <img src={mainLogo} width="150" height="72" />
         </a>
         <li>

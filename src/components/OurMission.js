@@ -6,46 +6,61 @@ export default function OurMission() {
       <div class="mission-div vision-div">
         <h2>Vision</h2>
         <h4 class="h-vision">
-          A digital world where everyone is included <br></br>and able to
-          express themselves. <br></br>
+        Our Story <br></br>
           <div class="writeaway">
             <img class="coffe-pic" src={require("../MASTER.png")} />
           </div>
         </h4>
       </div>
 
-      <div class="mission-div ms-two ms-seven">
-        {/* <img class="coffe-pic" src={require("../coffee.jpg")} /> */}
-        <div class="about-margin">
-          <h2>Our Mission</h2>
+      <div class="about-div-two">
+        <div class="top-div-home">
           <div>
-            Write Away is on a mission to close the digital divide by creating
-            opportunities for learners of all ages to use digital tools for
-            writing and expression. We believe that a digitally inclusive world
-            is possible through strategic coaching and mentorship. Together, we
-            can create opportunity, build virtual community, and access the
-            tools needed for 21st century success.
+          Deanna Santoro, Write Away’s co-founder, had already worked as a teacher in three different school systems when she got the idea for this organization.
+          <br></br>
+          <br></br>
+          In the first school, her students had little to no access to computers. In the second, there were computers, but they weren’t being used consistently or purposefully across different classrooms. And in the third school, there were also computers...only, they were the same clunky desktop devices Deanna had used back in third grade herself.
+          <br></br>
+          <br></br>
+          One day, as part of the studies for her EdD, Deanna was working on some research about the relationship between achievement gaps and gaps in access to technology. She came across the term “digital divide”––and immediately thought of her students.
+          <br></br>
+          <br></br>
+          It struck her: no matter how hard she worked on her lessons, her students were still going to lag behind in their ability to use technology meaningfully, in the classroom and beyond.
+          <br></br>
+          <br></br>
+          Deanna decided right then that she had to do something to not only address the digital divide, but also empower students and their families to understand how to use technology to express themselves, achieve their goals, and enrich their lives. So that night, she started brainstorming ideas for an organization that would address these issues. 
+          <br></br>
+          <br></br>
+          The organization would do more than just increase access to digital literacy. It would help people use technology to empower themselves and engage in the deeply human act of communicating.
+          <br></br>
+          <br></br>
+          With this mission in mind, Write Away was born.
+          <br></br>
+          <br></br>
           </div>
         </div>
       </div>
 
-      <div class="mission-div misson-secret">
-        <h2>Write Away works towards this mission from three perspectives:</h2>
+      <div class="about-div-two">
+      <div class="top-div-home">
+        <h2>Strategy</h2>
+        <p class="the-facts-p">Write Away works toward this mission from three perspectives:</p>
         <ul>
           <li>
-            Write Away! Let’s make writing & digital literacy fun, exciting, and
+            <u>Write Away!</u> Let’s make writing & digital literacy fun, exciting, and
             motivating!
           </li>
           <li>
-            Right Away: We must work with purpose and urgency to close the
+            <u>Right Away:</u> We must work with purpose and urgency to close the
             digital divide and ensure students have 21st century skills.
           </li>
           <li>
-            Write a Way: By creating opportunities for digital writing and
+            <u>Write a Way:</u> By creating opportunities for digital writing and
             expression, we can help pave the way for future jobs, hobbies, and
             passions that enrich our lives!
           </li>
         </ul>
+        </div>
       </div>
 
       <div class="mission-div ms-four values-left">
