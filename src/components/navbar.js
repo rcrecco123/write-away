@@ -81,15 +81,14 @@ function Navbar() {
 
         <li>
           <a>
-            <Link to="/about-us">About Us</Link>
+          <Link to="/who-we-are">Who We Are</Link>
           </a>
         </li>
         <li>
           <a>
-            <Link to="/our-mission">Our Mission</Link>
+          <Link to="/about">About</Link>
           </a>
         </li>
-        
       </ul>
     </div>
   );
