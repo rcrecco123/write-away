@@ -54,7 +54,7 @@ export default function Home() {
       <div class="about-div-two">
         <div class="top-div-home">
           <h2>What Is the Digital Divide?</h2>
-          The <b>digital divide</b><i>is the uneven distribution in the access to, skill with, or impact of information and communications technologies. This uneven distribution can emerge based on economic status; between different racial and ethnic groups; or due to geography, generational divides, or other sociocultural factors.</i>
+          The <b>digital divide</b><i>is the uneven distribution in the access to, skill with, or impact of information and communications technologies.</i> This uneven distribution can emerge based on economic status; between different racial and ethnic groups; or due to geography, generational divides, or other sociocultural factors.
           <br></br>
           <br></br>
           This digital opportunity gap can affect people of all ages. It’s both a significant factor in, and a major effect of, inequalities in education.

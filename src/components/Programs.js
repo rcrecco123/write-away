@@ -63,7 +63,30 @@ export default function Programs() {
             get involved:
           </p>
         </div>
+        <br></br>
+        <br></br>
+        <div class="about-div-two-quotes">
+        <h2 class="">Here’s what a few folks have said about this program.</h2>
+        <br></br>
+        <div>
+          <div>
+          <i>“What I was surprised about was how welcoming people were, about feedback and about getting us involved.”</i>
+          </div>
+          <br></br>
+          –Allyson Meehan, mentor
+          <br></br>
+          <br></br>
+          <div>
+          <i>“I think it’s an awesome opportunity. I love it. I look forward to seeing my mentee every week and seeing what she’s been up&nbsp;to”</i>
+          </div>
+          <br></br>
+          –Abby Peabody, mentor
+        </div>
+      </div>
+      <br></br>
+      <br></br>
         <div class="program-sub-div">
+          <h2>Sound interesting? Excellent! Here’s how you can apply to be a mentee or a mentor.</h2>
           <div class="apply-box">
             <div class="sub-sub subsub-two">
               <h3 class="sub-p sub-center">Apply to be a mentee: </h3>
