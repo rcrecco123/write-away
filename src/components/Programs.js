@@ -59,8 +59,7 @@ export default function Programs() {
             their mentor two to three times per week for hour-long sessions.
             During these sessions, mentors will coach mentees through the
             creation of three writing tasks: a social media narrative, a
-            personal narrative, and an informational essay. Here is how you can
-            get involved:
+            personal narrative, and an informational essay.
           </p>
         </div>
         <br></br>
@@ -160,8 +159,8 @@ export default function Programs() {
           If you are a school, school district/network, or organization looking
           to promote positive writing outcomes for kids through the use of
           digitally-based writing tools, email us at{" "}
-          <a href="mailto:info.writeaway@gmail.com">
-            info.writeaway@gmail.com{" "}
+          <a href="mailto:info@writeaway.org">
+            info@writeaway.org{" "}
           </a>
           to learn more about how we can support you!
         </p>

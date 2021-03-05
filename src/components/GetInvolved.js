@@ -8,7 +8,7 @@ export default function GetInvolved() {
         <p className="social-header">Check out our programming page for opportunities as a student mentor, or reach out to find out more about how you can help us achieve our mission as an intern or volunteer.</p>
         <a
                 target="_blank"
-                href="mailto:test@example.com?subject=Volunteer"
+                href="mailto:info@writeaway.org?subject=Volunteer"
               >
                 <Button variant="contained" color="primary">
                 VOLUNTEER
